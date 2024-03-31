@@ -1,7 +1,4 @@
 class Solution:
-    
-        
-        
     def countAlternatingSubarrays(self, nums: List[int]) -> int:
         
         n = len(nums)
