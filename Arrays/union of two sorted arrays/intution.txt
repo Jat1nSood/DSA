@@ -1,0 +1,21 @@
+Brute Force:
+
+Intution Here is to use a hashmap to store those elements which are already inside the array.
+
+Flow --> Step1 -->> Put arr1 in ans and its elemnts in hashmap. (Also check if element is not repeating by peeking in hashmap)
+         Step2 -->  Look for arr2 element in hasmap if not there put it in ans and also hashmap
+         Step3 -->  Sort the arrau and retuen the ans
+
+TC here is (n + m) + nlogn
+SC here is (n + m)
+
+
+Optimized:
+
+Intution for optimized is to compare each and evey elemnt of the arr1 and arr2 and put the smaller one
+in ans and move the pointer of coresponding array. This way we will need not sort it at the end. Also
+everytime we add to ans we check if the last added element is equal to the available element in arrays
+if yes we move pointer.
+
+ TC here is (n + m)
+ SC is (1)
