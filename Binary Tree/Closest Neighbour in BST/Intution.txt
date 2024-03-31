@@ -1,0 +1,7 @@
+The intution here is to traverese the binary tree and find if there is a node which is either equal or less than n (with minimum difference)
+
+if yes return node data
+else return -1
+
+Time complexity is : O(n)
+Space complexuty is : O(h) h is hieght of the tree
