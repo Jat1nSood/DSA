@@ -1,0 +1,20 @@
+Brute Force :
+
+Intution here is to traverse the array and store the 
+first and last occurence in variables, keep a flag 
+and if element found for first time make it true and store
+it in firstOccurence and when flag is true and you again found
+the element equal to X add in second variable
+
+TC here is O(n)
+SC is O(1)
+
+Optimized:
+
+As the array is sorted we can apply binary search and if element found
+run  2 loops, one to left and one two right and if the new element is also eaual to
+x update the varaible and when not break
+
+
+TC = O(n)
+SC = O(1)
