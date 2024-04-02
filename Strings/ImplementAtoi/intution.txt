@@ -1,0 +1,7 @@
+Better:
+
+Intution here is that we simply use the asci value of charachter. for eg asci value of '0' is 48 and asci value of '9' is 58 if do '9' - '0'
+which is 57 - 48 = . so using this fomula we are caing numeric valueof charachter.
+
+TC is (n)
+Sc is (1)

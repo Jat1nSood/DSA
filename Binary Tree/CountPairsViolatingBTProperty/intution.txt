@@ -1,0 +1,8 @@
+Brute Force:
+
+Intution here is that we know that an INORDER of a BST is always in accending order. We use that property here.
+We do a inorder od the tree and store keys in an array. After that we check for each elemnet if it is greater than
+the comming elemnet is the array. If that is the case then that pair is violating BST propertu and we increase count
+
+TC here is O(n^2)
+SC is o(H) H is height of the recursive tree

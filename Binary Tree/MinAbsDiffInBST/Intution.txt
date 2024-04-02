@@ -1,0 +1,17 @@
+Brute Force:
+
+Intution here is to use the property of BST that Its inorder is always
+sorted in accending order. So we create a array and put elemnts in arr using inorder traversal
+Once array is ready we traverse it and take mindiffernce betwee every consecutive pair of elements
+At the end we min diff
+
+TC here is O(n)  + O(n)
+SC is O(n)
+
+OOptimized 
+
+We simply create variable name prev = -1. We simply know that every upcoming elenet in inorder traversal is going to be greater than last
+so we take difference of prev and current eleemnt  and if it is lesser than preveous difference we update ans. and the ve update prev with curr node.
+
+TC here is : O(n)
+SC O(1)

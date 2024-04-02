@@ -1,0 +1,7 @@
+Better
+
+Intution here is to use merge sort technique. We know that when we sort an array using merge sor we compare two
+ element and if the latter element is greater to the prior element hen we can see that it was inversion pair
+
+ TC here is nlogn
+ SC is n
