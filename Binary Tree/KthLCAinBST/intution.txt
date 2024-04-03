@@ -1,0 +1,4 @@
+Here we use the property of bst to find the LCA first. After that we find the path to that LCA and retrun len - k node form there.
+
+TC is (h) hirght of tree
+SC is (h)
