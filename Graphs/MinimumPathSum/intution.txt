@@ -1,0 +1,6 @@
+Better: 
+
+Intution here to explore smallest paths in the matrix using dijkrta's algo
+
+TC : VlogE
+SC : N^2
