@@ -1,11 +1,23 @@
-import java.util.*;
+public class NotificationController {
 
-public class test{
+    private NotificationService notificationService;
 
-    public static void main(String[] args){
-        String s = "00.00.00.00";
-        if(s == "00.00.00.00"){
-            System.out.println("FAs");
-        }
+    public NotificationController(NotificationService notificationService) {
+        this.notificationService = notificationService;
     }
+}
+
+public class NotificationService {
+
+    private final NotificationRepository notificationRepository;
+
+    public NotificationService(NotificationRepository notificationRepository) {
+        this.notificationRepository = notificationRepository;
+    }
+
+}
+
+
+public class NotificationRepository{
+    
 }
